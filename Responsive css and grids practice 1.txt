@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<style>
+.page { 
+border: 2px solid red;
+}
+.plan { width:20% ;
+border: 5px dashed red;
+float:left;
+}
+.cpp { width:20%
+border: 1px dashed red;
+}
+.topic { width:20% ;
+border: 5px dashed red;
+}
+</style>
+<body>
+<div class="page">
+<h1>This is my page </h1>
+</div>
+<div class="topic">
+<h2>This is my topic </h2>
+<ul>
+<li>Hub </li>
+<li>Cabinet </li>
+<li>Location </li>
+</ul>
+</div>
+<div class="plan">
+<h3>This is my plan </h3>
+<ol>
+<li>Planning </li>
+<li>Grouping </li>
+</ol>
+</div>
+<div class="cpp">
+<h4>This is my cpp </h4>
+<ul>
+<li>ASBA </li>
+<li>CPP </li>
+</ul>
+</div>
+</body>
+</html>
