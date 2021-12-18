@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+        .outerbox {
+            display:flex;
+            padding: 1%;
+            margin:10%;
+            width:100px
+        }
+        .mybox {
+            border: 1px solid black;
+            padding: 100px;
+            margin: 10px;
+            width: 100%;
+            height: 10%
+        }
+        .mybox1 {
+            border: 1px solid black;
+            padding: 100px;
+            margin: 10px;
+            width: 100%;
+            height: 10%
+        }
+        </style>
+          <script>
+              let number of singleclick=0
+              function clickme() {
+                  document.getElementsByClassName("mybox1")[0].innerText="Hi from js"
+                  document.getElementsByClassName("mybox1")[0].style.backgroundColor="red"
+              }
+              function clickme2() {
+                  document.getElementsByClassName("mybox1")[0].innerText="Hi from html"
+                  document.getElementsByClassName("mybox1")[0].style.backgroundColor="green"
+              }
+          </script>
+        </script>
+    </head>
+    <body>
+        <div class="outerbox">
+        <div class="mybox">
+            <h1>1 </h1>
+        </div>
+        <div class="mybox1">
+            <h1>2 </h1>
+        </div>
+        <div class="mybox">
+            <h1>3 </h1>
+        </div>
+        </div>
+        <button onclick="clickme()" ondblclick="clickme2()">Change text</button>
+    </body>
+</html>
+
