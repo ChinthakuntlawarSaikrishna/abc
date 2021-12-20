@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="cards">
+            <p>casacding style sheet </p>
+        </div>
+        <div class="cards">
+            <p>Hyper Text markup language </p>
+        </div>
+        <div class="cards">
+            <p>Java script </p>
+        </div>
+        <div class="cards">
+            <p>Node.js </p>
+        </div>
+    </body>
+    </html>
